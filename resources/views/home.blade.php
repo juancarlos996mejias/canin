@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petshop</title>
+    <title>Dog Face</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,23 +31,26 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nosotros</a>
+                            <a class="nav-link" href="/nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/productos">Productos</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Productos
+                            <a class="nav-link dropdown-toggle" href="/productos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Perros</a></li>
+                                <li><a class="dropdown-item" href="/perros">Perros</a></li>
 
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Gatos</a></li>
+                                <li><a class="dropdown-item" href="/gatos">Gatos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contactos</a>
+                            <a class="nav-link active" aria-current="page" href="/contacto">Contactos</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -74,15 +77,26 @@
         <a href=""><img src="img/pedigree.png" class="card-img-top" alt="..."></a>
     </div>
 
+<section>
+<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-internal="12000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/pet-sho.jpg"  class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/bennercat.webp"  class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/bannerComic.jpg"  class="d-block w-50" alt="...">
+    </div>
+  </div>
+</div>
 
+</section>
 
     <section id="products">
 
-
-
         <!-- Aquí se mostrarán los productos -->
-
-
 
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
             <div class="col">

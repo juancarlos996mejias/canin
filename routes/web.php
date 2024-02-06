@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\homeController;
+use App\Http\Controllers\dogController;
+use App\Http\Controllers\catController;
+use App\Http\Controllers\productsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,10 +16,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::get('/', [homeController::class, 'index']);
+
+Route::get('/perros', [dogController::class, 'index']);
+
+Route::get('/gatos', [catController::class, 'index']);
+
+Route::get('/productos', [productsController::class, 'index']);
+
+Route::get('/nosotros', function () {
+    return view('nosotros');
 });
 
-Route::get('/welcome', function () {
-    return view('welcome');
+
+Route::get('/contacto', function () {
+    return view('contacto');
 });

@@ -126,3 +126,12 @@ text-align: justify;
 }
 
 
+#carouselExampleSlidesOnly{
+    height: 35%;
+
+}
+
+.bannerCat img{
+    width: 100%;
+    font-size: 20%;
+}
