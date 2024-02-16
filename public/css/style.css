@@ -5,10 +5,23 @@ body {
 }
 
 header {
-    background-color: #AEDEFC;
-    padding: 1em;
-    color: white;
+    background-color: #98A8F8;
+    padding: 0, 5em;
+    color: #fff;
     text-align: center;
+
+}
+
+.navbar {
+    margin-left: 20px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.d-flex {
+    margin-right: 20px;
 }
 
 
@@ -35,103 +48,182 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #65B741;
-}
 
 
 
---footer-----
-body {
+
+--footer----- body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
 footer {
-    
-    background-color: #AEDEFC;
-    color: black;
+    padding: 0, 5em;
+    background-color: #98A8F8;
+    color: #fff;
     text-align: center;
+}
+
+.atajosFooter {
+    color: #fff;
+    
+}
+
+.atajosFooter i{
+    font-size:  200%;
+    width: 30%;
+    margin-bottom: 10%;
+    color: #BBC3A4;
 }
 
 .social-icons a {
     display: inline-block;
     margin: 0 10px;
-    color: black;
+    color: #fff;
     text-decoration: none;
     font-size: 20px;
 }
 
-.social-icons a:hover {
-    color: #55acee; /* Cambia el color al pasar el ratón sobre el enlace de Twitter, por ejemplo */
+.item a {
+    color: #fff;
 }
 
-.banner img{
+
+
+.item a:hover {
+    color: black;
+}
+
+.social-icons a:hover {
+    color: black;
+    /* Cambia el color al pasar el ratón sobre el enlace de Twitter, por ejemplo */
+}
+
+.banner img {
     padding: auto;
     width: 100%;
 }
 
-#logo{
+#logo {
     height: 90px;
     width: 90px;
     margin-right: 60%;
     border-radius: 50%;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.parrafoFooter {
+    text-align: justify;
     
 }
 
-p{
-    font-family:Arial, Helvetica, sans-serif;
-
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
-.parrafoFooter{
-text-align: justify;
-}
 
-.contenedorMarcas img{
+
+
+
+
+.contenedorMarcas img {
     height: 40px;
     width: 40px;
 }
 
-.Marcas img{
+.Marcas img {
     height: 70px;
     width: 70px;
     margin: 10px 20px;
-    
+
 }
 
-.card-img-top{
-    height: 45%;
-    width: 15%; 
+.card-img-top img{
+    height: 35%;
+    width: 5%;
+}
+
+.card{
+     width: 75%; 
+     margin-left: 25px;
 }
 
 .whatsapp-btn {
-       width: 150px;   
+    
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    right: 20px;
     color: #fff;
-    padding: 15px;
     border-radius: 50%;
-    font-size: 10px;
     text-align: center;
     cursor: pointer;
     z-index: 1000;
+    margin-left: 60px;
+    
 }
 
-.whatsapp-btn img{
-    width: 125px;
-    height: auto;
+.whatsapp-btn img {
+    height: 60px;
+    width: 60px;
+    margin-top: 40px;
+      
 }
 
 
-#carouselExampleSlidesOnly{
-    height: 35%;
-
+.social-bar {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.bannerCat img{
-    width: 100%;
-    font-size: 20%;
+.social-icon {
+    margin-bottom: 10px;
+    display: block;
 }
+
+.social-icon img {
+    width: 40px; /* Ajusta el tamaño de los iconos según tus necesidades */
+    height: 40px;
+    border-radius: 50%;
+}
+
+.perro img{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.parafoPerro{
+    display: flex;
+   
+    
+}
+
+.i{
+    height: 20%;
+    width: 20%;
+}
+
+#cardProductos img{
+    height: 40%;
+    width: 40%;
+    
+}
+

@@ -55,14 +55,17 @@
         </nav>
     </header>
 
-   
-<div class="text-center">
-    <img src="img/bannerDog.jpg" alt="">
-    <h1>Contenido de Perros</h1>
+   <aside>
+   <div class="perro text-center">
+    <img src="img/perro.avif" alt="">
     </div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque provident tempora deserunt dolore illo consectetur, soluta reiciendis tempore! Iste a in vitae perspiciatis dignissimos perferendis accusamus fuga hic alias odio.
+   </aside>
 
-    <footer class="text-center text-black" style="background-color: #AEDEFC;">
+   <div class="parafoPerro">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque provident tempora deserunt dolore illo consectetur, soluta reiciendis tempore! Iste a in vitae perspiciatis dignissimos perferendis accusamus fuga hic alias odio.</p>
+</div>
+
+<footer class="text-center">
 
 <!-- Grid container -->
 <div class="container">
@@ -71,41 +74,58 @@
         <!-- Grid row-->
         <div class="row text-center d-flex justify-content-center pt-5">
             <!-- Grid column -->
-            <div class="col-md-2">
+
+            <div class=" item col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-black">Nosotros</a>
+                    <a href="/nosotros" class="atajosFooter">
+                    <i class="fa-solid fa-users"></i>
+                    
+                        <p>Nosotros</p>
+                    </a>
                 </h6>
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-2">
-                <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-black">Productos</a>
+            <div class=" item col-md-2">
+                <h6 class="text-uppercase">
+                    <a href="/productos" class="atajosFooter">
+                    <i class="fa-solid fa-boxes-stacked"></i>
+                        <p>PRODUCTOS</p>
+                    </a>
                 </h6>
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-2">
+            <div class=" item col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-black">Mas Vendidos</a>
+                    <a href="#!" class="atajosFooter">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <p>MAS VENDIDOS</p>
+                    </a>
                 </h6>
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-2">
+            <div class=" item col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-black">Ayuda</a>
+                    <a href="#!" class="atajosFooter">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                        <p>AYUDA</p>
+                    </a>
                 </h6>
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-2">
+            <div class="item col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-black">Contactos</a>
+                    <a href="/contacto" class="atajosFooter">
+                    <i class="fa-solid fa-location-dot"></i>
+                        <p>CONTACTOS</p>
+                    </a>
                 </h6>
             </div>
             <!-- Grid column -->
@@ -122,15 +142,18 @@
 
         <div class="row d-flex justify-content-center">
             <div class="col-lg-8">
+                <div class="logoFooter">
+                    <a class="navbar-brand" href="/"><img src="img/logoDogFace.png" id="logo"></a>
+                </div>
                 <div class="parrafoFooter">
-                    <p>
+                    <p class="parrafo text-black">
 
                         ¡Bienvenidos a nuestra tienda <strong>DOG FACE DISTRIBUIDORA</strong> especializada en alimentos para mascotas, donde el amor por los animales es nuestra máxima inspiración! En nuestro rincón dedicado a la salud y felicidad de tus fieles compañeros, nos enorgullece ofrecerte una amplia gama de productos de alta calidad, pensados para satisfacer las necesidades nutricionales específicas de cada tipo de mascota.
                     </p>
 
-                    
+
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -150,6 +173,16 @@
     </section>
     <!-- Section: Social -->
 </div>
+
+
+<div class="social-bar">
+    <a href="#" target="_blank" class="social-icon"><img src="img/face.png" alt="Facebook"></a>
+    <a href="#" target="_blank" class="social-icon"><img src="img/ig.png" alt="Instagram"></a>
+    <a href="#" target="_blank" class="social-icon"><img src="img/twiter.png" alt="Twitter"></a>
+    <a href="#" target="_blank" class="social-icon"><img src="img/youtu.png" alt="youtube"></a>
+    <a href="#" target="_blank" class="social-icon"><img src="img/gmail.png" alt="gmail"></a>
+    <!-- Agrega más iconos según tus necesidades -->
+</div>
 <!-- Grid container -->
 
 <!-- Copyright -->
@@ -162,8 +195,21 @@
 </div>
 <!-- Copyright -->
 </footer>
+<!-- Footer -->
+</div>
+<!-- End of .container -->
+
 
 <script src="app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+function abrirWhatsApp() {
+    var telefono = "+5491161931305"; // Reemplaza con tu número de WhatsApp
+    var mensaje = "Hola, estoy contactándote desde tu sitio web."; // Mensaje predeterminado
+    var link = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensaje);
+    window.open(link, '_blank');
+}
+</script>
+
 </body>
 </html>
